@@ -1,6 +1,6 @@
-# movie_x
+# Movie X
 
-A new Flutter project.
+A movie browser app built with Flutter.
 
 ## Getting Started
 

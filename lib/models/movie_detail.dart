@@ -71,10 +71,6 @@ class MovieDetail {
       voteAverage: json['vote_average'],
       voteCount: json['vote_count'],
     );
-    // DateTime releaseDate = DateTime.parse(movieDetail.releaseDate);
-    // String formattedRelease ="${releaseDate.year.toString()}-${releaseDate.month.toString().padLeft(2,'0')}-${releaseDate.day.toString().padLeft(2,'0')}";
-
-    // movieDetail.releaseDate = formattedRelease;
 
     if (json['genres'] != null) {
       movieDetail.genres = new List<Genre>();
